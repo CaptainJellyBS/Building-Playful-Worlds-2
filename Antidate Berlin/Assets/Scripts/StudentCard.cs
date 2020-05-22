@@ -43,7 +43,6 @@ public class StudentCard : MonoBehaviour
         studName.text = student.studentName;
         gender.text = student.gender.ToString();
         studImg.sprite = student.GetComponent<SpriteRenderer>().sprite;
-        Debug.Log(student.GetComponent<SpriteRenderer>().sprite);
         string temp = string.Empty;
         studentOnCard = true;
 

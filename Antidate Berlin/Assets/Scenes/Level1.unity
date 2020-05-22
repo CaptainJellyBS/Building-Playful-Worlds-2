@@ -160,6 +160,7 @@ MonoBehaviour:
   rooms: []
   students: []
   currentStudent: {fileID: 0}
+  nextScene: Level2
 --- !u!4 &163381070
 Transform:
   m_ObjectHideFlags: 0

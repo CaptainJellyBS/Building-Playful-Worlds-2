@@ -162,7 +162,6 @@ public class Student : MonoBehaviour
     #region input
     void OnMouseUp()
     {
-        Debug.Log("clicked");
         if (selected) { throw new System.ArgumentException("Student somehow clicked while selected"); }
         Select();
     }
